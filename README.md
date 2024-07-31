@@ -19,6 +19,7 @@ The code is divided into main programs:
 - SonoTweezer_parametric_variation: script to tailor different configurations of acoustic fields in water besides SonoTweeezer configuration
 - Directivity: program to plot acoustic pressure distribution around a single transducer 
 Some parameters used in this study can be found in the table below:
+
 ![image](https://github.com/user-attachments/assets/0957e911-cbd8-4992-b865-51f3766affb6)
 
 These codes use the following different MATLAB functions:
@@ -27,7 +28,8 @@ These codes use the following different MATLAB functions:
 - directfunc: computing directivity function of a transducer based on defined properties (wavelength of sound in the medium, density and size of transducer)
 - distance_and_angle_xy: allows computation of acoustic fields in XY-plane i.e. lateral plane (shown in fig. below)
 - distance_and_angle_yz: allows computation of acoustic fields in YZ-plane i.e. longitudinal plane (shown in fig. below)
-- potential field: allows computation of Gor'kov potential based on acoustic fields (Equation 2 in the article). Same function can be used with acoustic fields in all the possible planes. 
+- potential field: allows computation of Gor'kov potential based on acoustic fields (Equation 2 in the article). Same function can be used with acoustic fields in all the possible planes.
+  
 ![image](https://github.com/user-attachments/assets/4cd0fa12-6028-4867-a0c0-a323ace6f76f)
 
 # Acknowledgement
